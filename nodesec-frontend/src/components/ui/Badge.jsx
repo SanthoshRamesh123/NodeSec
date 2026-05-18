@@ -15,7 +15,7 @@ export default function Badge({ severity = 'low', children, className = '' }) {
     >
       {children || severity}
     </span>
-  );
+  );  
 }
 
 export { SEVERITY_COLORS };
